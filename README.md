@@ -1,2 +1,2 @@
 # ERC20-Token-Sample
-Copy for DD group.
+Copy template to use for DD group.
