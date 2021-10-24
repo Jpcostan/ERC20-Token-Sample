@@ -7,13 +7,7 @@ pragma solidity ^0.4.24;
 // Name          : LCS Token
 // Total supply  : 100000
 // Decimals      : 2
-// Owner Account : 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe
-//
-// Enjoy.
-//
-// (c) by Juan Cruz Martinez 2020. MIT Licence.
-// ----------------------------------------------------------------------------
-
+// Owner Account : DEPLOY-ADDRESS-HERE
 
 // ----------------------------------------------------------------------------
 // Lib: Safe Math
@@ -88,8 +82,8 @@ contract LCSTToken is ERC20Interface, SafeMath {
         name = "LCS Token";
         decimals = 2;
         _totalSupply = 100000;
-        balances[0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe] = _totalSupply;
-        emit Transfer(address(0), 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe, _totalSupply);
+        balances[DEPLOY-ADDRESS-HERE] = _totalSupply;
+        emit Transfer(address(0), DEPLOY-ADDRESS-HERE, _totalSupply);
     }
 
 
