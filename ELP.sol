@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// Deployed to : 0x4aCE6A7449aABD8af3D8c22a5039ab27c0513cd6
+// Deployed to : DEPLOY-ADDRESS-HERE
 // 
 //
 // 
@@ -111,7 +111,7 @@ contract ELP is ERC20Interface, Owned, SafeMath {
         name = "Orange Man Utility Token";
         decimals = 18;
         _totalSupply = 1000000000000000000000000000;
-        balances[0x4aCE6A7449aABD8af3D8c22a5039ab27c0513cd6] = _totalSupply;
+        balances[DEPLOY-ADDRESS-HERE] = _totalSupply;
         emit Transfer(address(0), 0x4aCE6A7449aABD8af3D8c22a5039ab27c0513cd6, _totalSupply);
     }
 
